@@ -44,3 +44,9 @@
     color: var(--white-color);
     transition: all ease-in-out 300ms;
 }
+
+.menu-spacing {
+    display: block;
+    height: 5.4rem;
+    width: 100vw;
+}

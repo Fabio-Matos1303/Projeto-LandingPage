@@ -3,3 +3,26 @@
     padding: 0;
 }
 
+.intro !important {
+    width: calc(100vw - 54px);
+    display: flex;
+    align-items: center;
+}
+
+.intro-text-content {
+    width: 30vw;
+    text-align: left;
+}
+
+.intro-img-content {
+    width: 70vw;
+}
+
+.intro-text-content h2 {
+    font-size: 4.2rem;
+    text-transform: uppercase;    
+}
+
+.intro-text-content p {
+    padding-top: 3rem;
+}
