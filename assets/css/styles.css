@@ -20,7 +20,7 @@ section, .intro{
 }
 
 .intro-text-content {
-    width: 30vw;
+    width: 30%;
 }
 
 
@@ -35,19 +35,23 @@ section, .intro{
 }
 
 .intro-content {
-    height: 70vh;
+    height: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .intro-img-content {
+    width: 100%;
+    min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.intro-img-content img {
-    height: 60vh;
+.intro-img-content {
+    height: 100%;
 }
