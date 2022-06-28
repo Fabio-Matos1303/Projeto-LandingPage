@@ -13,27 +13,25 @@ section, .intro{
     justify-content: center;
 }
 
-.intro-text-content {
+.intro-text-content, .intro-img-content {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: center;
 }
 
 .intro-text-content {
-    width: 30%;
+    width: 30vw;
 }
 
 
 .intro-text-content h2 {
     font-size: 4rem;
     text-transform: uppercase;  
-    text-align: center;
 }
 
 .intro-text-content p {
     padding-top: 1rem;
     font-size: 1.5rem;
-    text-align: center;
 }
 
 .intro-content {
@@ -41,17 +39,15 @@ section, .intro{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .intro-img-content {
-    width: 70%;
-    min-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .intro-img-content img {
-    width: 100%;
+    height: 60vh;
 }
