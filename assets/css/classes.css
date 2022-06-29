@@ -1,13 +1,14 @@
 
 .main-bg {
     background-image: url('../img/main-bg.svg.svg');
-    background-size: 15vh;
+    background-size: 10vh;
     background-position: center center;
     color: var(--white-color);
 }
 
-.white-bg {
-    background-color: var(--white-color);
+.pink-bg {
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
 }
 
 .main-content {

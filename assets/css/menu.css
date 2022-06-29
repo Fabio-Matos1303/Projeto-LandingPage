@@ -40,7 +40,7 @@
 }
 
 .menu ul li a:hover {
-    background-color: rgba(245, 4, 210, 0.5);
+    background-color: var(--primary-color);
     border-bottom: solid 0.1rem var(--secundary-color);
     color: var(--white-color);
     transition: all ease-in-out 300ms;
@@ -58,10 +58,21 @@
 }
 
 .main-content h1 a {
-    color: #DC1468;
     display: flex;
     align-items: center;
-    font-family: 'buffalo', sans-serif;
+}
+
+.menu-content h1 {
+    color: #DC1468;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.menu-content h1 h2 {
+    padding-top: 0.5rem;
+    color: #DC1468;
+    font-family: 'Portobesto', sans-serif;
     text-transform: capitalize;
-    font-size: xx-large;
+    font-size: larger;
 }
