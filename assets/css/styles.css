@@ -6,6 +6,7 @@
 
 .top3 {
     height: calc(100vh - 5.4rem);
+    color: var(--primary-color);
 }
 
 .top3-content {
