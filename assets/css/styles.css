@@ -3,6 +3,11 @@
     padding: 0;
     border: 0;
 }
+
+.top-3 {
+    padding-top: 6rem;
+}
+
 .top-3-header {
     height: auto;
     display: flex;
