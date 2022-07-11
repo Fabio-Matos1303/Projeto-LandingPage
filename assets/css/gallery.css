@@ -1,0 +1,41 @@
+
+.gallery {
+    padding-top: 2%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.gallery-conteiner {
+    height: 75vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gallery-image {
+    max-width: 30rem;
+    max-height: 20rem;
+    overflow: hidden;
+}
+
+.gallery-image img {
+    transition: all 300ms ease-in-out;
+}
+
+.gallery-image img:hover {
+    transform: translate(-3%, 3%) scale(1.2);
+}
+
+.gallery-title p {
+    text-transform: initial;
+}
+
+.gallery-title{
+    margin: 0;
+    border: 0;
+    padding-bottom: 0;
+    padding-top: 3%;
+    text-transform: uppercase;
+}

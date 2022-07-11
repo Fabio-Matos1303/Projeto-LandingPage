@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     text-transform: uppercase;
 }
 
@@ -46,4 +46,24 @@ h5 {
 
 h6 {
     font-size: 3.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 0.5rem;
+    border: 0.1rem solid var(--light-gray-color);
+    text-align: left;
+}
+
+tfoot td, table th {
+    background: #fec9f7;
+}
+
+table caption {
+    font-style: italic;
+    text-align: left;
 }
