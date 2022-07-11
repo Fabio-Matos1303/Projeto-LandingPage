@@ -1,0 +1,55 @@
+
+.top-3 {
+    padding-top: 6rem;
+}
+
+.top-3-header {
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-3-header-title {
+    text-transform: uppercase;
+}
+
+.top-3-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-3-list-title {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+
+.top-3-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9rem;
+    width: 33%;
+}
+
+.top-3-list-header h2 {
+    font-style: italic;
+}
+
+.top-3-list-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100vw;
+}
+
+.top-3-list-text {
+    width: 33%;
+    height: 50vh;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.top-3-list-content {
+    height: 50vh;
+}
