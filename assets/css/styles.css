@@ -2,4 +2,113 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    grid-column: span 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.form-grid {
+    border: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.form-group {
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, .form-group textarea {
+    border: none;
+    background: var(--secundary-color);
+    padding: 1rem 1rem;
+    width: 95%;
+}
+
+textarea {
+    resize: none;
+}
+
+.email {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.email label {
+    display: block;
+}
+
+.email input, .email textarea {
+    border: none;
+    background: var(--secundary-color);
+    padding: 1rem 1rem;
+    width: 97.5%;
+}
+
+.message {
+    width: 100%;
+}
+
+.message label {
+    display: block;
+}
+
+.message input, .message textarea {
+    border: none;
+    background: var(--secundary-color);
+    padding: 1rem 1rem;
+    width: 97.5%;
+}
+
+
+fieldset legend {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.form-group button {
+    border: 0.5rem solid var(--primary-color);
+    background: var(--secundary-color);
+    color: var(--primary-color);
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.form-group button:hover {
+    color: var(--secundary-color);
+    background-color: var(--primary-color);
+    border: 0.5rem solid var(--secundary-color);
+}
+
+::placeholder {
+    color: rgb(128, 128, 128);
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer p {
+    color: black;
+}
+
+.footer a {
+    color: black;
+}
+
+.heart {
+    color: var(--primary-color);
 }

@@ -1,7 +1,7 @@
 
 .main-bg {
     background-image: url('../img/main-bg.svg.svg');
-    background-size: 10vh;
+    background-size: 20vh;
     background-position: center center;
     color: var(--white-color);
 }
@@ -18,5 +18,13 @@
 }
 
 .section {
-    min-height: calc(100vh - 6.0rem)
+    min-height: 100vh;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100vh
 }
